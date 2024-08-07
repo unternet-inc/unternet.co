@@ -1,0 +1,14 @@
+{
+  "name": "unternet-website",
+  "version": "0.0.1",
+  "description": "The website for Unternet.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "vite": "^5.3.5"
+  }
+}
