@@ -2,6 +2,17 @@
   box-sizing: border-box;
 }
 
+@font-face {
+  font-family: 'Avara_Bold';
+  src: url('assets/fonts/Avara-Bold.eot');
+}
+
+@font-face {
+  font-family: 'Avara_Bold';
+  src: url('assets/fonts/Avara-BoldItalic.eot');
+  font-style: italic;
+}
+
 html,
 body {
   margin: 0;
@@ -12,5 +23,5 @@ body {
 
 body {
   background: url('/assets/tiling-bg-2.svg') repeat;
-  font-family: 'PP NeueBit';
+  font-family: 'Avara';
 }
