@@ -4,12 +4,11 @@
   "description": "The website for Unternet.",
   "main": "index.js",
   "scripts": {
-    "start": "vite",
-    "build": "vite build"
+    "dev": "eleventy --watch --serve --port=1234"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "vite": "^5.3.5"
+    "@11ty/eleventy": "^2.0.1"
   }
 }
