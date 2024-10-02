@@ -20,6 +20,7 @@ header h1 {
 }
 
 .hero {
+  margin-top: -100px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -49,6 +50,10 @@ footer {
 }
 
 @media screen and (max-width: 800px) {
+  .hero {
+    margin-top: 0;
+  }
+
   .hero h2 {
     font-size: 33px;
   }
