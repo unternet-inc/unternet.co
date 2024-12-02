@@ -23,6 +23,13 @@ body {
 
   /* Font smoothing for other browsers */
   text-rendering: optimizeLegibility;
+
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex-grow: 1;
 }
 
 a {
@@ -47,4 +54,14 @@ h1 {
 
 h2 {
   font-size: 20px;
+}
+
+footer {
+  margin-top: 20px;
+  flex-shrink: 0;
+  background: #151515;
+  padding: 7px 0;
+  font-size: 14px;
+  color: #999;
+  text-align: center;
 }
