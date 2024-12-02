@@ -13,3 +13,7 @@ To apply, email <a href="mailto:jobs@unternet.co">jobs@unternet.co</a> with your
 
 - [Open-Source Engineer](/careers/open-source-engineer)\
   Full-time/contract • Remote
+- Lead Designer (coming soon!)\
+  Full-time • Remote
+- Lead Engineer (coming soon!)\
+  Full-time • Remote
