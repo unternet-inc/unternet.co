@@ -1,0 +1,10 @@
+main ul {
+  border-top: 1px solid #525252;
+  padding: 0;
+  list-style: none;
+}
+
+main ul li {
+  border-bottom: 1px solid #525252;
+  padding: 15px;
+}

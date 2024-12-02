@@ -1,0 +1,52 @@
+main,
+.page {
+  width: 100%;
+  max-width: 760px;
+  margin: 0 auto;
+}
+
+header {
+  padding-top: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+header .logo {
+  height: 45px;
+}
+
+header ul {
+  display: flex;
+  list-style: none;
+}
+
+header li {
+  margin-left: 24px;
+  position: relative;
+  color: #898989;
+  font-weight: 600;
+}
+
+header li + li::before {
+  content: '\2022';
+  color: #898989;
+  display: inline-block;
+  margin-left: -15px;
+  position: absolute;
+}
+
+header li.active {
+  color: white;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #181818;
+  padding: 7px 0;
+  font-size: 14px;
+  color: #999;
+  text-align: center;
+}

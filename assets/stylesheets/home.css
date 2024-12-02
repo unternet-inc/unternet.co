@@ -29,11 +29,6 @@ main {
   font-size: 16px;
 }
 
-.links a {
-  color: inherit;
-  font-weight: 500;
-}
-
 footer {
   position: absolute;
   bottom: 0;

@@ -13,7 +13,7 @@ body {
 }
 
 body {
-  font-family: 'Source Sans 3', serif;
+  font-family: 'Source Sans 3', system-ui, sans-serif;
   background: #111;
   color: white;
 
@@ -23,4 +23,28 @@ body {
 
   /* Font smoothing for other browsers */
   text-rendering: optimizeLegibility;
+}
+
+a {
+  color: inherit;
+  font-weight: 500;
+}
+
+a:hover {
+  background: white;
+  color: black;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: 600;
+}
+
+h1 {
+  font-size: 24px;
+}
+
+h2 {
+  font-size: 20px;
 }

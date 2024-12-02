@@ -3,10 +3,12 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Unternet" />
+    <meta name="description" content="{{ description }}" />
     <link rel="shortcut icon" href="/assets/favicon.ico" />
     <link rel="stylesheet" href="/assets/stylesheets/base.css" />
-    {% if stylesheet %}
+    {% if layout == 'page' %}
+    <link rel="stylesheet" href="/assets/stylesheets/page.css" />
+    {% endif %} {% if stylesheet %}
     <link rel="stylesheet" href="/assets/stylesheets/{{stylesheet}}.css" />
     {% endif %}
     <title>Unternet - {{ title }}</title>

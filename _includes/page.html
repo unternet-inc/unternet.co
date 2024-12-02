@@ -1,0 +1,19 @@
+---
+layout: base
+---
+
+<header class="page">
+  <img src="/assets/glyph.png" class="logo" />
+  <ul>
+    <li class="{% if page.url == '/' %}active{% endif %}">
+      <a href="/">Home</a>
+    </li>
+    <li class="{% if page.url startsWith '/careers/' %}active{% endif %}">
+      <a href="/careers">Careers</a>
+    </li>
+  </ul>
+</header>
+
+<main>{{ content }}</main>
+
+<footer>© 2024 Unternet, PBC</footer>
