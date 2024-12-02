@@ -11,5 +11,5 @@ We currently have some early open roles, and we'd love you to join us on the gro
 
 To apply, email <a href="mailto:jobs@unternet.co">jobs@unternet.co</a> with your resume and a brief note.
 
-- [Open-Source Engineer](open-source-engineer)\
+- [Open-Source Engineer](/careers/open-source-engineer)\
   Full-time/contract • Remote
