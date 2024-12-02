@@ -3,7 +3,7 @@ layout: page
 title: Lead Designer
 ---
 
-# Lead Designer
+# Lead Designer (Remote, or San Francisco)
 
 ## About the company
 

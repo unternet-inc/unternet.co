@@ -3,7 +3,7 @@ layout: page
 title: Open-Source Engineer
 ---
 
-# Open Source Engineer (Remote/SF)
+# Open Source Engineer (Remote, or San Francisco)
 
 This role is available full-time and contract.
 
