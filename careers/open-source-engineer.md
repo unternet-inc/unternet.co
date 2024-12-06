@@ -25,7 +25,7 @@ As an Open Source Engineer, you’ll be responsible for…
 Everyone is different, and we recognize that backgrounds and skill sets that suit this role will vary. Here's our best guess at the profile of someone who will be successful in this role:
 
 - You have experience contributing to open-source projects & managing developer communities
-- You're a programmer with 5-10 years' experience
+- You're a programmer with 3+ years' experience
 - You have strong JavaScript & TypeScript skills
 - Ability to work independently and remotely
 - You're excited by the work we're doing, and align with our values!
