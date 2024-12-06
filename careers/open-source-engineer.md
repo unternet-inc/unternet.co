@@ -5,7 +5,7 @@ title: Open-Source Engineer
 
 # Open Source Engineer (Remote, or San Francisco)
 
-This role is available full-time and contract.
+_This role is available either full-time or contract._
 
 ## About the company
 
