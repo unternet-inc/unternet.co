@@ -15,5 +15,5 @@ To apply, email <a href="mailto:jobs@unternet.co">jobs@unternet.co</a> with your
   Full-time/contract • Remote
 - [Lead Designer](/careers/lead-designer)\
   Full-time • Remote
-- Lead Engineer (coming soon!)\
+- [Lead Engineer](/careers/lead-engineer)\
   Full-time • Remote

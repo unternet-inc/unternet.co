@@ -32,6 +32,6 @@ Everyone is different, and we recognize that backgrounds and skill sets that sui
 
 ## Compensation
 
-US$70,000 – US$170,000
+US$70,000 – US$160,000
 
 We will work together to decide on the (competitive!) market rate for your region & circumstances.
