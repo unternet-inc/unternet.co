@@ -1,3 +1,8 @@
+---
+layout: page
+title: Lead Engineer
+---
+
 # Lead Designer
 
 ## About the company
