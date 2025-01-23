@@ -6,12 +6,12 @@ main {
   justify-content: center;
   text-align: center;
   padding: 20px;
-  gap: 30px;
+  gap: 10px;
   max-width: 600px;
   margin: 0 auto;
 }
 
-.logo {
+.hero-logo {
   width: 250px;
 }
 

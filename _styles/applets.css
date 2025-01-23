@@ -1,0 +1,62 @@
+.intro {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 12px 20px 40px 20px;
+  gap: 8px;
+}
+
+.intro h1,
+.intro p {
+  margin: 0;
+}
+
+.applets-list {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+  gap: 12px;
+}
+
+.applet {
+  width: calc(50% - 12px);
+  border: 1px solid #333;
+  background: #222;
+  border-radius: 4px;
+  padding: 12px;
+  font-size: 15px;
+}
+
+.applet header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.applet header h1 {
+  padding: 0;
+  margin: 0;
+}
+
+.applet header img {
+  width: 20px;
+  height: 20px;
+}
+
+.applet-url {
+  background: #444;
+  display: inline-block;
+  padding: 4px 8px;
+  border-radius: 4px;
+  margin-bottom: 0;
+  color: #ccc;
+}
+
+.applet-url.disabled,
+.applet-url.disabled:hover {
+  background: inherit;
+  cursor: default;
+  color: #ccc;
+}

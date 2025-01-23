@@ -1,0 +1,35 @@
+---
+layout: page
+stylesheet: blog
+---
+
+<div class="form-container">
+  <form
+    action="https://buttondown.com/api/emails/embed-subscribe/unternet"
+    method="post"
+    target="popupwindow"
+    onsubmit="window.open('https://buttondown.com/unternet', 'popupwindow')"
+    class="embeddable-buttondown-form"
+  >
+    <label for="bd-email">Subscribe to updates:</label>
+    <input
+      type="email"
+      name="email"
+      placeholder="yourname@example.com"
+      id="bd-email"
+    />
+
+    <input type="submit" value="Subscribe" />
+  </form>
+</div>
+
+{%- for post in collections.posts reversed -%}
+
+<article class="post">
+  <p class="date">{{ post.data.date | dateFilter }}</p>
+  <h2><a href="{{ post.url }}">{{ post.data.title }}</a></h2>
+
+  <div class="post-content">{{ post.templateContent }}</div>
+</article>
+
+{%- endfor -%}

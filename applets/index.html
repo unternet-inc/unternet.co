@@ -1,0 +1,52 @@
+---
+layout: page
+stylesheet: applets
+---
+
+<script type="text/javascript" defer>
+  document.querySelectorAll('.applet-url').forEach((anchor) => {
+    anchor.addEventListener('mousedown', (e) => {
+      navigator.clipboard.writeText(anchor.dataset.url);
+
+      anchor.innerText = 'Copied!';
+      anchor.classList.add('disabled');
+
+      setTimeout(() => {
+        anchor.innerText = 'Copy link';
+        anchor.classList.remove('disabled');
+      }, 3000);
+    });
+  });
+</script>
+
+<section class="intro">
+  <h1>Applets directory</h1>
+  <p>
+    A collection of <a href="/docs/web-applets">web applets</a> available for
+    use in compatible clients (e.g.
+    <a href="https://github.com/unternet-co/operator">Operator</a>). Submit a
+    new applet by
+    <a href="https://github.com/unternet-co/unternet.co">forking this site</a>,
+    or emailing
+    <a href="mailto:applet-submissions@unternet.co"
+      >applet-submissions@unternet.co</a
+    >.
+  </p>
+</section>
+
+<ul class="applets-list">
+  {%- for applet in applets -%}
+
+  <li class="applet">
+    <header>
+      <img src="{{ applet.favicon }}" />
+      <h1>
+        <a href="{{ applet.source_url }}" target="_blank">{{ applet.title }}</a>
+      </h1>
+    </header>
+    <p class="description">{{ applet.description }}</p>
+    <a class="applet-url" data-url="{{ applet.url }}">Copy link</a>
+  </li>
+
+  {%- endfor -%}
+</ul>

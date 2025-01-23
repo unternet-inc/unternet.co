@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@200..900&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  font-family: 'Source Sans 3', system-ui, sans-serif;
+  background: #111;
+  color: white;
+  font-size: 17px;
+
+  /* Font smoothing for macOS */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Font smoothing for other browsers */
+  text-rendering: optimizeLegibility;
+
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex-grow: 1;
+}
+
+a:not(.bare) {
+  color: inherit;
+  font-weight: 500;
+}
+
+a:not(.bare):hover {
+  background: white;
+  color: black;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: 600;
+}
+
+h1 {
+  font-size: 24px;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+a {
+  cursor: pointer;
+}
+
+footer {
+  margin-top: 20px;
+  flex-shrink: 0;
+  background: #151515;
+  padding: 7px 0;
+  font-size: 14px;
+  color: #999;
+  text-align: center;
+  border-top: 1px solid #313131;
+}
+
+.page {
+  width: 100%;
+  max-width: 860px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+  box-sizing: border-box;
+}
+main.page {
+  padding: 20px;
+}
+
+.main-header {
+  display: flex;
+  justify-content: space-between;
+  background: #151515;
+  border-bottom: 1px solid #313131;
+}
+
+.main-header .page {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main-header .logo-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-header .logo {
+  height: 30px;
+  aspect-ratio: 1/1;
+}
+
+.main-header ul {
+  display: flex;
+  list-style: none;
+}
+.main-header li {
+  margin-left: 24px;
+  position: relative;
+  color: #898989;
+  font-weight: 600;
+}
+
+.main-header li + li::before {
+  content: '\2022';
+  color: #898989;
+  display: inline-block;
+  margin-left: -15px;
+  position: absolute;
+}
+
+.main-header li.active {
+  color: white;
+}

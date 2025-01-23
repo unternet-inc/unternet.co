@@ -1,0 +1,52 @@
+article {
+  border-top: 1px solid #333;
+
+  padding-top: 28px;
+}
+
+article h2 {
+  margin-top: 14px;
+}
+
+.form-container {
+  padding: 5px 0 25px 0;
+}
+
+.date {
+  margin: 0;
+  display: inline-block;
+  background: #333;
+  padding: 2px 4px;
+  border-radius: 4px;
+  font-size: 15px;
+}
+
+form {
+  background: #222;
+  border: 1px solid #333;
+  border-radius: 4px;
+  padding: 12px;
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+form input {
+  border: 1px solid #444;
+  border-color: transparent;
+  border-radius: 4px;
+  padding: 6px 8px;
+  background: #333;
+  color: white;
+  outline: none;
+}
+
+form input[type='email'] {
+  flex-grow: 1;
+}
+
+form input[type='submit'] {
+  background: #111;
+  border-color: #444;
+  font-weight: 600;
+}
