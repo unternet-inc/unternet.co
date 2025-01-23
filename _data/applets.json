@@ -1,37 +1,16 @@
 [
   {
     "title": "unternet-co/maps",
-    "favicon": "https://applets.unternet.co/web/icon-128x128.png",
+    "favicon": "https://applets.unternet.co/maps/icon-128x128.png",
     "url": "https://applets.unternet.co/maps",
-    "source_url": "https://github.com/unternet-co/applets/tree/main/applets/google-maps",
+    "source_url": "https://github.com/unternet-co/applets/tree/main/src/maps",
     "description": "A Google Maps applet for searching for locations and getting basic data, such as a description, address, reviews, and ratings. Shows locations as pins on the map."
   },
   {
-    "title": "unternet-co/maps",
-    "favicon": "https://applets.unternet.co/web/icon-128x128.png",
-    "url": "https://applets.unternet.co/maps",
-    "source_url": "https://github.com/unternet-co/applets/tree/main/applets/google-maps",
-    "description": "A Google Maps applet for searching for locations and getting basic data, such as a description, address, reviews, and ratings. Shows locations as pins on the map."
-  },
-  {
-    "title": "unternet-co/maps",
-    "favicon": "https://applets.unternet.co/web/icon-128x128.png",
-    "url": "https://applets.unternet.co/maps",
-    "source_url": "https://github.com/unternet-co/applets/tree/main/applets/google-maps",
-    "description": "A Google Maps applet for searching for locations and getting basic data, such as a description, address, reviews, and ratings. Shows locations as pins on the map."
-  },
-  {
-    "title": "unternet-co/maps",
-    "favicon": "https://applets.unternet.co/web/icon-128x128.png",
-    "url": "https://applets.unternet.co/maps",
-    "source_url": "https://github.com/unternet-co/applets/tree/main/applets/google-maps",
-    "description": "A Google Maps applet for searching for locations and getting basic data, such as a description, address, reviews, and ratings. Shows locations as pins on the map."
-  },
-  {
-    "title": "unternet-co/maps",
-    "favicon": "https://applets.unternet.co/web/icon-128x128.png",
-    "url": "https://applets.unternet.co/maps",
-    "source_url": "https://github.com/unternet-co/applets/tree/main/applets/google-maps",
-    "description": "A Google Maps applet for searching for locations and getting basic data, such as a description, address, reviews, and ratings. Shows locations as pins on the map."
+    "title": "unternet-co/tarot",
+    "favicon": "https://applets.unternet.co/tarot/icon-128x128.png",
+    "url": "https://applets.unternet.co/tarot",
+    "source_url": "https://github.com/unternet-co/applets/tree/main/src/tarot",
+    "description": "A simple 'tarot reader' applet, which draws a card to tell your fortune. Ask a follow-up question about a specific scenario to get a reading."
   }
 ]
