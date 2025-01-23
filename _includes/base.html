@@ -9,41 +9,39 @@
       data-site="RRRTMURW"
       defer
     ></script>
-    <link rel="shortcut icon" href="/assets/favicon.jpg" />
-    <link rel="stylesheet" href="/assets/stylesheets/base.css" />
-    {% if layout == 'page' %}
-    <link rel="stylesheet" href="/assets/stylesheets/page.css" />
-    {% endif %} {% if stylesheet %}
-    <link rel="stylesheet" href="/assets/stylesheets/{{stylesheet}}.css" />
+    <link rel="shortcut icon" href="/favicon.jpg" />
+    <link rel="stylesheet" href="/styles/base.css" />
+    {% if stylesheet %}
+    <link rel="stylesheet" href="/styles/{{stylesheet}}.css" />
     {% endif %}
     <title>Unternet - {{ title }}</title>
   </head>
   <body>
-    <header>
+    <header class="main-header">
       <div class="page">
         <a href="/" class="bare logo-container"
-          ><img src="/assets/glyph.png" class="logo"
+          ><img src="/glyph.png" class="logo"
         /></a>
         <ul>
           <li class="{% if page.url == '/' %}active{% endif %}">
             <a href="/">Home</a>
           </li>
-          <li class="{% if page.url == '/docs/' %}active{% endif %}">
-            <a href="/docs">Docs</a>
+          <li class="{% if page.url contains '/blog/' %}active{% endif %}">
+            <a href="/blog">Updates</a>
           </li>
-          <li class="{% if page.url == '/blog/' %}active{% endif %}">
-            <a href="/blog">Blog</a>
-          </li>
-          <li class="{% if page.url == '/blog/' %}active{% endif %}">
-            <a href="/blog">Directory</a>
-          </li>
-          <li class="{% if page.url == '/careers/' %}active{% endif %}">
+          <!-- <li class="{% if page.url contains '/docs/' %}active{% endif %}">
+            <a href="/docs/web-applets/">Docs</a>
+          </li> -->
+          <!-- <li class="{% if page.url contains '/applets/' %}active{% endif %}">
+            <a href="/applets">Applets</a>
+          </li> -->
+          <li class="{% if page.url contains '/careers/' %}active{% endif %}">
             <a href="/careers">Careers</a>
           </li>
         </ul>
       </div>
     </header>
     {{ content }}
-    <footer>© 2024 Unternet, PBC</footer>
+    <footer>© 2025 Unternet, PBC</footer>
   </body>
 </html>
