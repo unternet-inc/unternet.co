@@ -5,7 +5,8 @@ stylesheet: applets
 
 <script type="text/javascript" defer>
   document.querySelectorAll('.applet-url').forEach((anchor) => {
-    anchor.addEventListener('mousedown', (e) => {
+    anchor.addEventListener('click', (e) => {
+      console.log('hello!');
       navigator.clipboard.writeText(anchor.dataset.url);
 
       anchor.innerText = 'Copied!';
