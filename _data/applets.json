@@ -15,7 +15,7 @@
   },
   {
     "title": "unternet-co/calculator",
-    "favicon": "https://applets.unternet.co/calculator/icon-128x128.png",
+    "favicon": "https://applets.unternet.co/calculator/icon-512x512.png",
     "url": "https://applets.unternet.co/calculator",
     "source_url": "https://github.com/unternet-co/applets/tree/main/src/calculator",
     "description": "A very simple calculator that can give you precise answers to any expression."
