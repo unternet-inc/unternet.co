@@ -4,23 +4,6 @@ titlte: Applets directory
 stylesheet: applets
 ---
 
-<script type="text/javascript" defer>
-  document.querySelectorAll('.applet-url').forEach((anchor) => {
-    anchor.addEventListener('click', (e) => {
-      console.log('hello!');
-      navigator.clipboard.writeText(anchor.dataset.url);
-
-      anchor.innerText = 'Copied!';
-      anchor.classList.add('disabled');
-
-      setTimeout(() => {
-        anchor.innerText = 'Copy link';
-        anchor.classList.remove('disabled');
-      }, 3000);
-    });
-  });
-</script>
-
 <section class="intro">
   <h1>Applets directory</h1>
   <p>
@@ -52,3 +35,19 @@ stylesheet: applets
 
   {%- endfor -%}
 </ul>
+
+<script type="text/javascript">
+  document.querySelectorAll('.applet-url').forEach((anchor) => {
+    anchor.addEventListener('click', (e) => {
+      navigator.clipboard.writeText(anchor.dataset.url);
+
+      anchor.innerText = 'Copied!';
+      anchor.classList.add('disabled');
+
+      setTimeout(() => {
+        anchor.innerText = 'Copy link';
+        anchor.classList.remove('disabled');
+      }, 3000);
+    });
+  });
+</script>
