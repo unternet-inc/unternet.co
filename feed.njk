@@ -20,18 +20,18 @@
   <subtitle>{{ metadata.subtitle }}</subtitle>
   <link href="{{ permalink | absoluteUrl(metadata.url) }}" rel="self"/>
   <link href="{{ metadata.url }}"/>
-  <updated>{{ collections.notes | getNewestCollectionItemDate | dateToRfc3339 }}</updated>
+  <updated>{{ collections.posts | getNewestCollectionItemDate | dateToRfc3339 }}</updated>
   <id>{{ metadata.url }}</id>
   <author>
     <name>{{ metadata.author.name }}</name>
     <email>{{ metadata.author.email }}</email>
   </author>
-  {%- for note in collections.notes | reverse %}
+  {%- for post in collections.posts | reverse %}
   {%- set absoluteUrl = post.url | absoluteUrl(metadata.url) %}
   <entry>
     <title>{{ post.data.title }}</title>
     <link href="{{ absoluteUrl }}"/>
-    <updated>{{ post.date | dateToRfc3339 }}</updated>
+    <updated>{{ post.data.date | dateToRfc3339 }}</updated>
     <id>{{ absoluteUrl }}</id>
     <content xml:lang="{{ metadata.language }}" type="html">{{ post.templateContent | htmlToAbsoluteUrls(absoluteUrl) }}</content>
   </entry>
