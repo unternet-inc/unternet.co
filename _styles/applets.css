@@ -22,8 +22,10 @@
 
 .applet {
   width: calc(50% - 12px);
-  border: 1px solid #333;
-  background: #222;
+  background: #eee;
+  border: 1px solid #ddd;
+  /* border: 1px solid #333; */
+  /* background: #222; */
   border-radius: 4px;
   padding: 12px;
   font-size: 15px;
@@ -45,12 +47,18 @@
   height: 20px;
 }
 
-.applet-url {
-  background: #444;
+a.applet-url {
+  background: black;
+  color: white;
+  /* background: #444; */
   display: inline-block;
   padding: 4px 8px;
   border-radius: 4px;
   margin-bottom: 0;
+  /* color: #ccc; */
+}
+
+a.applet-url:hover {
   color: #ccc;
 }
 
@@ -58,5 +66,6 @@
 .applet-url.disabled:hover {
   background: inherit;
   cursor: default;
-  color: #ccc;
+  /* color: #ccc; */
+  color: #777;
 }

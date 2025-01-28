@@ -14,8 +14,9 @@ body {
 
 body {
   font-family: 'Source Sans 3', system-ui, sans-serif;
-  background: #111;
-  color: white;
+  background: #fafafa;
+  /* background: #111;
+  color: white; */
   font-size: 17px;
 
   /* Font smoothing for macOS */
@@ -39,8 +40,8 @@ a:not(.bare) {
 }
 
 a:not(.bare):hover {
-  background: white;
-  color: black;
+  background: black;
+  color: white;
 }
 
 h1,
@@ -64,12 +65,12 @@ a {
 footer {
   margin-top: 20px;
   flex-shrink: 0;
-  background: #151515;
+  background: #eee;
   padding: 7px 0;
   font-size: 14px;
-  color: #999;
+  color: #6f6f6f;
   text-align: center;
-  border-top: 1px solid #313131;
+  border-top: 1px solid #ddd;
 }
 
 .page {

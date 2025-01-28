@@ -1,6 +1,13 @@
-article {
-  border-top: 1px solid #333;
+main.page {
+  padding-bottom: 100px;
+}
 
+article {
+  max-width: 650px;
+}
+
+.article-list article {
+  border-top: 1px solid #ddd;
   padding-top: 28px;
 }
 
@@ -15,15 +22,14 @@ article h2 {
 .date {
   margin: 0;
   display: inline-block;
-  background: #333;
+  background: #ddd;
   padding: 2px 4px;
   border-radius: 4px;
   font-size: 15px;
 }
 
 form {
-  background: #222;
-  border: 1px solid #333;
+  background: #ddd;
   border-radius: 4px;
   padding: 12px;
   display: flex;
@@ -32,12 +38,10 @@ form {
 }
 
 form input {
-  border: 1px solid #444;
-  border-color: transparent;
+  border: 1px solid transparent;
   border-radius: 4px;
   padding: 6px 8px;
-  background: #333;
-  color: white;
+  background: #fafafa;
   outline: none;
 }
 
@@ -47,6 +51,7 @@ form input[type='email'] {
 
 form input[type='submit'] {
   background: #111;
+  color: #ddd;
   border-color: #444;
   font-weight: 600;
 }
