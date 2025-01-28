@@ -45,7 +45,7 @@ But we're not just making a product. My secret admission (don't tell [Betaworks]
 
 There will be more that we build in the open, and with like-minded communities like [User & Agents](https://www.userandagents.com/) or [Mozilla Builders](https://builders.mozilla.org/), in the near future.
 
-There's plenty to talk about, which I'll save that for future updates, but I'll end on this note: I am confident that this new user agent is going to come, and when it does it will be awesome. What I feel less confident about is whether it will be something that's owned by one company & designed to extract from us, or owned by all of us & designed to empower us. If you — like me — are in favor of the latter, then please join our journey.
+There's plenty to talk about, which I'll save that for future updates, but I'll end on this note: I am confident that this new user agent is going to come, and it will be awesome. But will it be something that's owned by one company & designed to extract from us, or owned by all of us & designed to empower us? If you — like me — are in favor of the latter, then get involved.
 
 What you can do:
 
