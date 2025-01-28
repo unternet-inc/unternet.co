@@ -1,5 +1,6 @@
 ---
 layout: docs
+title: Documentation
 ---
 
 # Introduction to Web Applets

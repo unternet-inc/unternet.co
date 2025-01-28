@@ -43,5 +43,10 @@
     </header>
     {{ content }}
     <footer>© 2025 Unternet, PBC</footer>
+    <script defer>
+      document
+        .querySelectorAll('.post-content a')
+        .forEach((elem) => elem.setAttribute('target', '_blank'));
+    </script>
   </body>
 </html>

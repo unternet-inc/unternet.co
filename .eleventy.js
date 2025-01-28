@@ -4,6 +4,7 @@ const metagen = require('eleventy-plugin-metagen');
 
 module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy({ _static: '/' });
+  eleventyConfig.addPassthroughCopy('blog/assets');
   eleventyConfig.addPassthroughCopy({ _styles: '/styles' });
   eleventyConfig.addPlugin(pluginDate);
   eleventyConfig.addPlugin(pluginRSS);

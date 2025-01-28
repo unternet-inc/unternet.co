@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 'Careers'
+title: Careers
 stylesheet: careers
 description: "Unternet is hiring! Here's our career page where we give you open roles for this remote-first AI tech company."
 ---
