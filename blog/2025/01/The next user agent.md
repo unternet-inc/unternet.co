@@ -46,7 +46,7 @@ There's plenty to talk about, which I'll save that for future updates, but I'll 
 What you can do:
 
 - Please tell your friends about us, and send them a [link to our blog](https://unternet.co/blog)
-- Try integrationg [Web Applets](https://github.com/unternet-co/web-applets) into your own software, report bugs, and contribute to our [applets directory](https://unternet.co/directory) so anyone can use what you build
-- Register for user research &mdash; we're settling on the most compelling early use cases and your input would be greatly appreciated
+- Try integrationg [Web Applets](https://github.com/unternet-co/web-applets) into your own software, report bugs, and contribute to our [applets directory](https://unternet.co/applets) so anyone can use what you build
+- [Register for user research](https://forms.gle/E72aMBRHqJABUNhJ6) &mdash; we're settling on the most compelling early use cases and your input would be greatly appreciated
 
 Over the next few updates I'll give you more details about alpha testing. In the meantime, if you want to lend a hand or have a chat, drop by our Discord anytime.
