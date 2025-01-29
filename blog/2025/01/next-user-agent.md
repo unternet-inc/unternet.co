@@ -61,4 +61,4 @@ What you can do:
 - Try creating your own [web applet](https://github.com/unternet-co/web-applets), and then [send me an email](mailto:rupert@unternet.co) so I can host it on our upcoming applets directory
 - [Register for user research](https://forms.gle/E72aMBRHqJABUNhJ6) &mdash; we're settling on the most compelling early use cases and your input would be greatly appreciated
 
-Over the next few updates I'll give you more details about how to get our preview client running. In the meantime, if you want to lend a hand or have a chat, drop by our Discord anytime.
+Over the next few updates I'll give you more details about how to get our preview client running. In the meantime, if you want to lend a hand or have a chat, drop by our [Discord](https://discord.gg/NRAdjzAm) anytime.

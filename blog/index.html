@@ -4,6 +4,10 @@ stylesheet: blog
 title: Updates
 ---
 
+<p class="callout">
+  We're sending out weekly notes, documenting our progress as we build the
+  future of the user agent.
+</p>
 <div class="form-container">
   <form
     action="https://buttondown.com/api/emails/embed-subscribe/unternet"
@@ -12,15 +16,17 @@ title: Updates
     onsubmit="window.open('https://buttondown.com/unternet', 'popupwindow')"
     class="embeddable-buttondown-form"
   >
-    <label for="bd-email">Subscribe to updates:</label>
-    <input
-      type="email"
-      name="email"
-      placeholder="yourname@example.com"
-      id="bd-email"
-    />
+    <p>Subscribe to updates in your inbox:</p>
+    <div class="fields">
+      <input
+        type="email"
+        name="email"
+        placeholder="yourname@example.com"
+        id="bd-email"
+      />
 
-    <input type="submit" value="Subscribe" />
+      <input type="submit" value="Subscribe" />
+    </div>
   </form>
 </div>
 

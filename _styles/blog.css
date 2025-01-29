@@ -28,10 +28,28 @@ article h2 {
   font-size: 15px;
 }
 
+.callout {
+  font-weight: 500;
+  font-size: 1.1em;
+}
+
 form {
   background: #ddd;
   border-radius: 4px;
   padding: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+form p,
+form label {
+  font-weight: 500;
+  padding: 0;
+  margin: 0;
+}
+
+form .fields {
   display: flex;
   gap: 8px;
   align-items: center;
