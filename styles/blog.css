@@ -15,6 +15,11 @@ article h2 {
   margin-top: 14px;
 }
 
+article img,
+article video {
+  max-width: 100%;
+}
+
 .form-container {
   padding: 5px 0 25px 0;
 }

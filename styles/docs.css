@@ -1,0 +1,32 @@
+.docs {
+  display: flex;
+  gap: 30px;
+}
+
+.docs nav {
+  width: 170px;
+  flex-shrink: 0;
+}
+
+.docs nav h1 {
+  font-size: inherit;
+  padding: 0;
+}
+
+.docs nav ul {
+  list-style: none;
+  padding: 0;
+  position: sticky;
+  top: 0;
+}
+
+.docs article {
+  flex-grow: 1;
+  min-width: 0;
+}
+
+.docs img {
+  max-width: 100%;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}

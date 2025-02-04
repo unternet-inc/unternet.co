@@ -49,7 +49,7 @@ But we're not just making a product. My secret admission (don't tell [Betaworks]
 
 Our first open-source release is [Web Applets](https://github.com/unternet-co/web-applets), a lightweight protocol for sending actions & receiving data from a web app. It's how our product is able to spin up a map to search for cafes nearby, then answer a question about which one has a 4+ star review, stocks oat milk, and is less than a 10 minute walk from home.
 
-<img src="https://unternet.co/blog/assets/operator-maps-demo.gif" alt="Operator asking a follow-up question to a map" width="100%" />
+<img src="/assets/blog/2025-01-maps-demo.gif" alt="Operator asking a follow-up question to a map" width="100%" />
 
 There will be more that we build in the open, and with like-minded communities like [User & Agents](https://www.userandagents.com/) and [Mozilla Builders](https://builders.mozilla.org/), in the near future.
 

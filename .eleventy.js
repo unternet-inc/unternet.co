@@ -3,9 +3,8 @@ const pluginRSS = require('@11ty/eleventy-plugin-rss');
 const metagen = require('eleventy-plugin-metagen');
 
 module.exports = function (eleventyConfig) {
-  eleventyConfig.addPassthroughCopy({ _static: '/' });
-  eleventyConfig.addPassthroughCopy('blog/assets');
-  eleventyConfig.addPassthroughCopy({ _styles: '/styles' });
+  eleventyConfig.addPassthroughCopy('assets');
+  eleventyConfig.addPassthroughCopy('styles');
   eleventyConfig.addPlugin(pluginDate);
   eleventyConfig.addPlugin(pluginRSS);
   eleventyConfig.addPlugin(metagen);

@@ -9,7 +9,7 @@
       data-site="RRRTMURW"
       defer
     ></script>
-    <link rel="shortcut icon" href="/favicon.jpg" />
+    <link rel="shortcut icon" href="/assets/favicon.jpg" />
     <link rel="stylesheet" href="/styles/base.css" />
     <link
       rel="alternate"
@@ -21,13 +21,13 @@
     {% if stylesheet %}
     <link rel="stylesheet" href="/styles/{{stylesheet}}.css" />
     {% endif %}
-    <title>Unternet - {{ title }}</title>
+    <title>Unternet | {{ title }}</title>
   </head>
   <body>
     <header class="main-header">
       <div class="page">
         <a href="/" class="bare logo-container"
-          ><img src="/glyph.png" class="logo"
+          ><img src="/assets/glyph.png" class="logo"
         /></a>
         <ul>
           <li class="{% if page.url == '/' %}active{% endif %}">
@@ -37,10 +37,10 @@
             <a href="/blog">Updates</a>
           </li>
           <!-- <li class="{% if page.url contains '/docs/' %}active{% endif %}">
-            <a href="/docs/web-applets/">Docs</a>
+            <a href="/docs/web-applets/introduction">Docs</a>
           </li> -->
-          <li class="{% if page.url contains '/applets/' %}active{% endif %}">
-            <a href="/applets">Applets</a>
+          <li class="{% if page.url contains '/directory/' %}active{% endif %}">
+            <a href="/directory">Directory</a>
           </li>
           <li class="{% if page.url contains '/careers/' %}active{% endif %}">
             <a href="/careers">Careers</a>
