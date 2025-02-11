@@ -28,6 +28,13 @@
     "description": "Collaborate with a model to write a to-do list with checkable boxes."
   },
   {
+    "title": "unternet-co/rich-text-editor",
+    "favicon": "https://applets.unternet.co/rich-text-editor/icon-128x128.png",
+    "url": "https://applets.unternet.co/rich-text-editor",
+    "source_url": "https://github.com/unternet-co/applets/tree/main/src/rich-text-editor",
+    "description": "A rich text editor, that can write a new buffer of text or append to an existing one."
+  },
+  {
     "title": "unternet-co/weather",
     "favicon": "https://applets.unternet.co/weather/icon-512x512.png",
     "url": "https://applets.unternet.co/weather",

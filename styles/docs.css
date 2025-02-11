@@ -1,11 +1,24 @@
 .docs {
   display: flex;
-  gap: 30px;
+  overflow: hidden;
+}
+
+.docs-content {
+  padding: 30px;
+  overflow-y: scroll;
+  background: white;
+}
+
+.docs-content-inner {
+  max-width: 740px;
+  margin: 0 auto;
 }
 
 .docs nav {
-  width: 170px;
+  padding: 30px;
+  width: 240px;
   flex-shrink: 0;
+  border-right: 1px solid #ccc;
 }
 
 .docs nav h1 {
@@ -16,8 +29,19 @@
 .docs nav ul {
   list-style: none;
   padding: 0;
-  position: sticky;
-  top: 0;
+}
+
+.docs nav a {
+  color: #555;
+}
+
+.docs nav a.active {
+  text-decoration: none;
+  color: black;
+  /* background: #ddd; */
+}
+.docs nav a.active:hover {
+  background: inherit;
 }
 
 .docs article {

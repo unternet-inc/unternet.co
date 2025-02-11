@@ -25,28 +25,26 @@
   </head>
   <body>
     <header class="main-header">
-      <div class="page">
-        <a href="/" class="bare logo-container"
-          ><img src="/assets/glyph.png" class="logo"
-        /></a>
-        <ul>
-          <li class="{% if page.url == '/' %}active{% endif %}">
-            <a href="/">Home</a>
-          </li>
-          <li class="{% if page.url contains '/blog/' %}active{% endif %}">
-            <a href="/blog">Updates</a>
-          </li>
-          <!-- <li class="{% if page.url contains '/docs/' %}active{% endif %}">
-            <a href="/docs/web-applets/introduction">Docs</a>
-          </li> -->
-          <li class="{% if page.url contains '/directory/' %}active{% endif %}">
-            <a href="/directory">Directory</a>
-          </li>
-          <li class="{% if page.url contains '/careers/' %}active{% endif %}">
-            <a href="/careers">Careers</a>
-          </li>
-        </ul>
-      </div>
+      <a href="/" class="bare logo-container"
+        ><img src="/assets/glyph.png" class="logo"
+      /></a>
+      <ul>
+        <li class="{% if page.url == '/' %}active{% endif %}">
+          <a href="/">Home</a>
+        </li>
+        <li class="{% if page.url contains '/blog/' %}active{% endif %}">
+          <a href="/blog">Updates</a>
+        </li>
+        <li class="{% if page.url contains '/docs/' %}active{% endif %}">
+          <a href="/docs/web-applets/introduction">Docs</a>
+        </li>
+        <li class="{% if page.url contains '/directory/' %}active{% endif %}">
+          <a href="/directory">Directory</a>
+        </li>
+        <li class="{% if page.url contains '/careers/' %}active{% endif %}">
+          <a href="/careers">Careers</a>
+        </li>
+      </ul>
     </header>
     {{ content }}
     <footer>© 2025 Unternet, PBC</footer>

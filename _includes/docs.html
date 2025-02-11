@@ -3,15 +3,22 @@ layout: base
 stylesheet: 'docs'
 ---
 
-<main class="page docs">
+<main class="docs">
   <nav>
     <ul>
       <li>
-        <span class="list-heading">Web Applets</span>
         <ul>
-          <li><a href="/docs/web-applets/introduction">Introduction</a></li>
           <li>
-            <a href="/docs/web-applets/creating-an-applet"
+            <a
+              href="/docs/web-applets/introduction"
+              class="{% if page.url == '/docs/web-applets/introduction/' %}active{% endif %}"
+              >Introduction</a
+            >
+          </li>
+          <li>
+            <a
+              href="/docs/web-applets/creating-an-applet"
+              class="{% if page.url == '/docs/web-applets/creating-an-applet/' %}active{% endif %}"
               >Creating an applet</a
             >
           </li>
@@ -19,5 +26,7 @@ stylesheet: 'docs'
       </li>
     </ul>
   </nav>
-  <article>{{ content }}</article>
+  <article class="docs-content">
+    <div class="docs-content-inner">{{ content }}</div>
+  </article>
 </main>

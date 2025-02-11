@@ -17,7 +17,7 @@ body {
   background: #fafafa;
   /* background: #111;
   color: white; */
-  font-size: 17px;
+  font-size: 16px;
 
   /* Font smoothing for macOS */
   -webkit-font-smoothing: antialiased;
@@ -63,7 +63,7 @@ a {
 }
 
 footer {
-  margin-top: 20px;
+  /* margin-top: 20px; */
   flex-shrink: 0;
   background: #eee;
   padding: 7px 0;
@@ -88,15 +88,13 @@ main.page {
 
 .main-header {
   display: flex;
-  justify-content: space-between;
-  background: #151515;
-  border-bottom: 1px solid #313131;
-}
-
-.main-header .page {
-  display: flex;
+  flex-shrink: 0;
   justify-content: space-between;
   align-items: center;
+  overflow-x: scroll;
+  background: #151515;
+  border-bottom: 1px solid #313131;
+  padding: 0 20px;
 }
 
 .main-header .logo-container {
@@ -106,6 +104,7 @@ main.page {
 }
 
 .main-header .logo {
+  flex-shrink: 0;
   height: 30px;
   aspect-ratio: 1/1;
 }
@@ -131,4 +130,27 @@ main.page {
 
 .main-header li.active {
   color: white;
+}
+
+pre,
+code:not(pre > *) {
+  background: #eee;
+  border: 1px solid #dedede;
+  padding: 0 4px;
+  font-size: 13px;
+  border-radius: 3px;
+}
+
+pre {
+  padding: 12px;
+  border-radius: 6px;
+}
+
+blockquote {
+  border-left: 4px solid #ccc;
+  margin-left: 0;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding-left: 20px;
+  color: #666;
 }
