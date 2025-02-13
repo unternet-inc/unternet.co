@@ -15,10 +15,51 @@
 }
 
 .docs nav {
+  position: relative;
   padding: 30px;
   width: 240px;
   flex-shrink: 0;
   border-right: 1px solid #ccc;
+}
+
+@media screen and (max-width: 600px) {
+  .docs nav {
+    padding: 12px;
+    width: 100%;
+    transition: width 0.1s ease;
+  }
+
+  .docs nav.collapsed {
+    width: 0;
+    background: white;
+    border: none;
+  }
+
+  .docs nav.collapsed ul {
+    display: none;
+  }
+
+  .docs nav .menu-icon {
+    position: absolute;
+    top: 12px;
+    left: auto;
+    right: 12px;
+    display: block;
+    border: 0;
+    width: 30px;
+    height: 30px;
+  }
+
+  .docs nav.collapsed .menu-icon {
+    left: 12px;
+    right: auto;
+  }
+
+  .docs article {
+    box-sizing: border-box;
+    width: 90%;
+    flex-shrink: 0;
+  }
 }
 
 .docs nav h1 {

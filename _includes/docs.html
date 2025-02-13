@@ -4,7 +4,10 @@ stylesheet: 'docs'
 ---
 
 <main class="docs">
-  <nav>
+  <nav class="collapsed">
+    <div class="menu-icon" id="menu-button">
+      <img src="/assets/icons/menu.svg" />
+    </div>
     <ul>
       <li>
         <ul>
@@ -30,3 +33,9 @@ stylesheet: 'docs'
     <div class="docs-content-inner">{{ content }}</div>
   </article>
 </main>
+
+<script type="text/javascript">
+  document.querySelector('#menu-button').addEventListener('click', () => {
+    document.querySelector('.docs nav').classList.toggle('collapsed');
+  });
+</script>
