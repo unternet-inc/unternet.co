@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: Creating a web applet
+title: Quickstart - Web Applets
 ---
 
 # Getting started
@@ -48,11 +48,11 @@ We will define a `set_name` action in our manifest file, which our applet will u
 ```jsx
 {
   // ...
-  "actions": [
+  "actions":
     {
-      "id": "set_name",
+      "set_name" {
       "description": "Sets the name of the user.",
-      "parameters": {
+      "params_schema": {
         "type": "object",
         "properties": {
           "name": {
@@ -61,7 +61,7 @@ We will define a `set_name` action in our manifest file, which our applet will u
         }
       }
     }
-  ]
+  }
 }
 ```
 
